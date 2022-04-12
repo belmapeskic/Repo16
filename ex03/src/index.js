@@ -4,7 +4,8 @@ class Person {
         this._message = message;
     }
     static display() {
-        console.log("Static method is invoked from Person class");
+        var message = "Static method is invoked from Person class";
+        return message;
     }
     show() {
         console.log("Static method is invoked from Person class");
